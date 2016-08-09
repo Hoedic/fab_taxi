@@ -55,7 +55,7 @@ def load_config_dev():
     env.influx_conf = '/etc/influxdb/influxdb.conf'
     env.influx_db_dir = '/var/influx'
     env.geoserver_port = 80
-    env.apitaxi_archive = u'https://github.com/openmaraude/APITaxi/archive/{}.zip'
+    env.apitaxi_archive = u'https://github.com/hoedic/APITaxi/archive/{}.zip'
     env.fronttaxi_archive = u'https://github.com/openmaraude/APITaxi_front/archive/master.zip'
     env.geotaxi_authentication = True
     make_default_values()
